@@ -28,3 +28,15 @@ Dependências utilizadas e configuradas ao pom.xml:
       <version>5.7.0</version>
       <scope>test</scope>
     </dependency> 
+
+
+Usando o terminal para executar o teste:
+
+* Ao abrir o terminal, se tiver na mesma estrutura do projeto devemos avançar mais uma pasta e então executar o teste, neste caso:
+  Pré comando:
+  - cd .\com.poc.automacao\
+
+  Executando de fato o teste:
+  mvn test
+
+
