@@ -1,9 +1,17 @@
-# java-maven-junit-selenium
-Projeto/estudo para atualização do JUnit 5
+# Conhecendo o JUnit 5
 
-Utilizando Java, JUnit 5, Selenium WebDriver e Maven
+## Projeto para atualização do JUnit 5
 
-Dependências utilizadas e configuradas ao pom.xml:
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Java](https://www.java.com/pt-BR/)
+- [JUnit 5](https://junit.org/junit5/docs/current/user-guide/)
+- [Selenium WebDriver](https://www.selenium.dev/documentation/en/webdriver/)
+- [Maven](https://maven.apache.org/)
+
+### Dependências utilizadas e configuradas ao pom.xml:
 
 <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/selenium-jupiter -->
     <dependency>
@@ -30,13 +38,18 @@ Dependências utilizadas e configuradas ao pom.xml:
     </dependency> 
 
 
-Usando o terminal para executar o teste:
+### 🎲 Rodando o Back End (servidor)
 
-* Ao abrir o terminal, se tiver na mesma estrutura do projeto devemos avançar mais uma pasta e então executar o teste, neste caso:
-  Pré comando:
-  - cd .\com.poc.automacao\
+```bash
+# Clone este repositório
+$ git clone <https://github.com/vilsonjunior/java-maven-junit-selenium.git>
 
-  Executando de fato o teste:
-  mvn test
+# Acesse a pasta do projeto no terminal/cmd
+$ cd .\com.poc.automacao\
 
+# Execute a aplicação
+$ mvn test
+```
 
+### 🔗 Referências
+- https://bonigarcia.github.io/selenium-jupiter/
